@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>核心賣點頁面標題 - 品牌名稱</title>
+    <!-- 引入 Tailwind CSS 提供現代化 UI 樣式 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans antialiased">
+
+    <!-- 導覽列 -->
+    <nav class="fixed w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <!-- 品牌 Logo 佔位 -->
+                <span class="text-xl font-bold text-blue-600 tracking-tight">BRAND_LOGO</span>
+            </div>
+            <div>
+                <a href="#cta-section" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-lg text-sm font-medium transition-colors duration-200 shadow-sm">
+                    立即行動
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero 主視覺區 -->
+    <section class="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden bg-gradient-to-b from-blue-50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left">
+                    <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold tracking-wider uppercase px-3 py-1 rounded-full mb-4">
+                        限時優惠 / 全新上市
+                    </span>
+                    <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-gray-900 leading-tight mb-6">
+                        一句話直擊用戶痛點的<br class="hidden sm:inline">
+                        <span class="text-blue-600">核心強大標題</span>
+                    </h1>
+                    <p class="text-lg text-gray-600 mb-8 max-w-xl mx-auto lg:mx-0">
+                        這裡填寫副標題，用 2-3 行字詳細闡述產品或服務如何解決使用者的問題，帶來什麼不可替代的價值。
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#cta-section" class="bg-blue-600 hover:bg-blue-700 text-white text-center px-8 py-4 rounded-xl font-medium text-lg transition-all duration-200 shadow-lg shadow-blue-600/20">
+                            主行動呼籲按鈕
+                        </a>
+                        <a href="#features" class="bg-white hover:bg-gray-50 text-gray-700 text-center px-8 py-4 rounded-xl font-medium text-lg transition-all duration-200 border border-gray-200">
+                            了解更多特色
+                        </a>
+                    </div>
+                </div>
+                <!-- 產品圖片/示意圖區 -->
+                <div class="relative mx-auto lg:mr-0 max-w-md lg:max-w-none w-full">
+                    <div class="aspect-video lg:aspect-square bg-gray-200 rounded-2xl shadow-2xl flex items-center justify-center text-gray-400 overflow-hidden">
+                        <!-- 請替換為實際產品圖片 URL -->
+                        <span class="text-sm">產品主視覺圖片 (建議尺寸: 800x800 px)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 核心優勢/特色區 -->
+    <section id="features" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-4">
+                    為什麼選擇我們？
+                </h2>
+                <p class="text-lg text-gray-600">
+                    提煉產品的三大核心優勢，條理清晰地說服潛在客戶。
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- 特色 1 -->
+                <div class="p-8 rounded-2xl border border-gray-100 bg-gray-50 hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6 font-bold text-xl">01</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-950">核心優勢一</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        具體描述這個特色能為用戶帶來什麼好處，例如：提升 50% 工作效率、降低營運成本。
+                    </p>
+                </div>
+                <!-- 特色 2 -->
+                <div class="p-8 rounded-2xl border border-gray-100 bg-gray-50 hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6 font-bold text-xl">02</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-950">核心優勢二</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        強調與競品的差異化特點，建立技術、價格或服務上的絕對護城河。
+                    </p>
+                </div>
+                <!-- 特色 3 -->
+                <div class="p-8 rounded-2xl border border-gray-100 bg-gray-50 hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6 font-bold text-xl">03</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-950">核心優勢三</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        提供信任背書或直觀數據，消除用戶最後的疑慮與不信任感。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 終極行動呼籲區 (包含表單或直接跳轉) -->
+    <section id="cta-section" class="py-20 bg-gray-900 text-white relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl mb-6">
+                立即釋放潛能，開啟全新體驗
+            </h2>
+            <p class="text-lg text-gray-300 mb-10 max-w-2xl mx-auto">
+                不要讓猶豫阻礙改變。現在加入即可享有首月特惠或免費諮詢服務。
+            </p>
+            
+            <!-- 靜態轉換表單範例 -->
+            <form id="leadForm" class="max-w-md mx-auto flex flex-col sm:flex-row gap-3">
+                <input type="email" id="emailInput" required placeholder="請輸入您的電子郵件" class="w-full px-5 py-4 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 text-base">
+                <button type="submit" class="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-4 rounded-xl text-base transition-colors duration-200 whitespace-nowrap">
+                    送出申請
+                </button>
+            </form>
+            <p id="formFeedback" class="text-sm mt-4 text-green-400 hidden">感謝您的訂閱！我們將盡快與您聯繫。</p>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer class="bg-gray-950 text-gray-500 text-sm py-8 border-t border-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2026 品牌名稱. All rights reserved. 版權所有。</p>
+        </div>
+    </footer>
+
+    <!-- 互動邏輯 JavaScript -->
+    <script>
+        document.getElementById('leadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = document.getElementById('emailInput').value;
+            
+            if(email) {
+                // 這裡處理靜態頁面的點擊追蹤或 API 發送邏輯
+                console.log('收集到潛在客戶 Email:', email);
+                
+                // 顯示成功回饋
+                const feedback = document.getElementById('formFeedback');
+                feedback.classList.remove('hidden');
+                document.getElementById('emailInput').value = '';
+                
+                // 3秒後自動隱藏提示
+                setTimeout(() => {
+                    feedback.classList.add('hidden');
+                }, 3000);
+            }
+        });
+    </script>
+</body>
+</html>
